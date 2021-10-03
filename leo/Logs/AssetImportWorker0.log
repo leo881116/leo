@@ -1,0 +1,645 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 17763.737; Version 1809; 64bit' Language: 'zh' Physical Memory: 16250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/leo/leo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60156
+Successfully changed project path to: E:/leo/leo
+E:/leo/leo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/leo/leo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P600 (ID=0x1cb2)
+    Vendor:   
+    VRAM:     1981 MB
+    Driver:   27.21.14.5239
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001384 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1528ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Domain Reload Profiling:
+	ReloadAssembly (914ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.4 MB.
+System memory in use after: 93.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 4.295500 ms (FindLiveObjects: 0.209500 ms CreateObjectMapping: 0.081900 ms MarkObjects: 3.882200 ms  DeleteObjects: 0.120800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/場景
+  artifactKey: Guid(ac7e1c768803dea47b087e4e5b67897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景 using Guid(ac7e1c768803dea47b087e4e5b67897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d04ee762b866e24545cac9601c59049') in 0.003622 seconds 
+  Import took 0.006287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.746426 seconds.
+  path: Assets/New Palette.prefab
+  artifactKey: Guid(0a405c3a581a85f4c9f2304978d22357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Palette.prefab using Guid(0a405c3a581a85f4c9f2304978d22357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d7db94abf6230d03d2b83cbaa4da9') in 0.088633 seconds 
+  Import took 0.091942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.419298 seconds.
+  path: Assets/素材/chogokubosogothic_5.ttf
+  artifactKey: Guid(a98c2eca168f68748bca9cb503f8cca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/chogokubosogothic_5.ttf using Guid(a98c2eca168f68748bca9cb503f8cca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39360b784595844c94d538c4f90abf64') in 0.049111 seconds 
+  Import took 0.052356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/素材/海報字體.ttf
+  artifactKey: Guid(c62810161852df7499e91fcf94a6e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/海報字體.ttf using Guid(c62810161852df7499e91fcf94a6e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9031dc0130439170c73c1d5a11a35a6d') in 0.022518 seconds 
+  Import took 0.025998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/素材/logo.png
+  artifactKey: Guid(9edffa29585f3844ea658c99c16401b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/logo.png using Guid(9edffa29585f3844ea658c99c16401b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f893898519b9f24801500278e58ccb04') in 0.091130 seconds 
+  Import took 0.094379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/素材/粒子.png
+  artifactKey: Guid(76283f74c94df434baa1f430b4e16955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/粒子.png using Guid(76283f74c94df434baa1f430b4e16955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2d1fd1135a77ee44824359335412bc') in 0.014929 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/素材/New Material.mat
+  artifactKey: Guid(7f9918eccf3a5804d90fbfc09801e019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/New Material.mat using Guid(7f9918eccf3a5804d90fbfc09801e019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c7de772caf7614ffee3b0e08a4eda0') in 0.008352 seconds 
+  Import took 0.011471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/素材/雜質.mat
+  artifactKey: Guid(c7b71f2e8641fca4c91a683cd9b1dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/雜質.mat using Guid(c7b71f2e8641fca4c91a683cd9b1dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3250744de9317e8f7f4fa06d54d2d3a6') in 0.009208 seconds 
+  Import took 0.012974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.547662 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props
+  artifactKey: Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props using Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aac2b74a698c039f0684b09f635df1') in 0.000849 seconds 
+  Import took 0.004461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.624357 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material
+  artifactKey: Guid(9ac4b6a5224288540a1d038f5d6101e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material using Guid(9ac4b6a5224288540a1d038f5d6101e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde7bce9dee8fa5ece95fb35590f920a') in 0.000894 seconds 
+  Import took 0.004589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119967 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat
+  artifactKey: Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat using Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187049146f5cc3f3dc40d238ae96372') in 0.033107 seconds 
+  Import took 0.037593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat
+  artifactKey: Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat using Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506cac7e1c2f20beb9e0ffaf90d1a09b') in 0.006031 seconds 
+  Import took 0.008959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat
+  artifactKey: Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat using Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16629e6d0a127908b8855dc330a7ffca') in 0.007102 seconds 
+  Import took 0.010240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.785949 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette
+  artifactKey: Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette using Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f747c36001c96afe8c3527e21b9dc32c') in 0.000967 seconds 
+  Import took 0.004884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371434 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf568126c929c773cf674818006f795b') in 0.000800 seconds 
+  Import took 0.003791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071847 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3de71f79567061a7c16b4ee94df5eba') in 0.006810 seconds 
+  Import took 0.009933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dc4f6ef08ae1caba09666df7a24cb1') in 0.007543 seconds 
+  Import took 0.010158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff388e4e69171e1c7c7ea791203919') in 0.068441 seconds 
+  Import took 0.071634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c35b875102297f0cd27cb76fc19fe50') in 0.300357 seconds 
+  Import took 0.303351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e22ad8c54b07abbce81d18b01ef26a0') in 0.066881 seconds 
+  Import took 0.069604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2780.052559 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180340ee9899a31c3c04cc073a49128d') in 0.017705 seconds 
+  Import took 0.021455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005957 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180340ee9899a31c3c04cc073a49128d') in 0.011995 seconds 
+  Import took 0.015367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.621134 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a979e508f2a83bce8918d780a64a0e') in 0.005995 seconds 
+  Import took 0.009502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.073383 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab
+  artifactKey: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468f7355c2b3637696751d819bf949a4') in 0.013939 seconds 
+  Import took 0.017594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
+  artifactKey: Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff07f62ccedc006864cda4c08b3a1aa8') in 0.014140 seconds 
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963761 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab
+  artifactKey: Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab using Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa051f8a016c827fc5a30e66213d487') in 0.011578 seconds 
+  Import took 0.014915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab
+  artifactKey: Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab using Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f23c252057b69d5c8b2f523286577e8') in 0.014029 seconds 
+  Import took 0.017180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab
+  artifactKey: Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab using Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8cf8659c4144f1d77445751461d8e8') in 0.013992 seconds 
+  Import took 0.018265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004770 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab
+  artifactKey: Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab using Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8cf8659c4144f1d77445751461d8e8') in 0.011972 seconds 
+  Import took 0.015843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.368256 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9165f925ba4a51de57d7fff359e3c692') in 0.238367 seconds 
+  Import took 0.242518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 652.860470 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken B.asset
+  artifactKey: Guid(0c07f86427bb54d4eb03c8b2fa78241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken B.asset using Guid(0c07f86427bb54d4eb03c8b2fa78241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e35046fa1a048f64e1f954de32b9366') in 0.018405 seconds 
+  Import took 0.022048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken TR.asset
+  artifactKey: Guid(7fe1213dc09833448940828e2c31db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken TR.asset using Guid(7fe1213dc09833448940828e2c31db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9c79dc8a532d25ece2aab1e91b37c') in 0.011450 seconds 
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C BL.asset
+  artifactKey: Guid(798cfdc62bb2b5646a96d09a375c6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C BL.asset using Guid(798cfdc62bb2b5646a96d09a375c6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a346cb35ec425c2e1e78fa9ab91b60a') in 0.007028 seconds 
+  Import took 0.010531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C BR.asset
+  artifactKey: Guid(f263f2bf81742cf40b4aef95aeba8772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C BR.asset using Guid(f263f2bf81742cf40b4aef95aeba8772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05acefa0dcd2c32982d09dafc3b645c3') in 0.008232 seconds 
+  Import took 0.011570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C BL 1.asset
+  artifactKey: Guid(934b5b350a7275247aca6b61fcda20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C BL 1.asset using Guid(934b5b350a7275247aca6b61fcda20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a8a9d6ed15183d466ac9f292248cb1') in 0.005405 seconds 
+  Import took 0.009085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C T.asset
+  artifactKey: Guid(79df581d12eecbb478aa53984fd5dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C T.asset using Guid(79df581d12eecbb478aa53984fd5dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7a0e691437f6b06660235a4146684e') in 0.006844 seconds 
+  Import took 0.010385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken M.asset
+  artifactKey: Guid(5adc184719b2264458f6ed00b8e5bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken M.asset using Guid(5adc184719b2264458f6ed00b8e5bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464a30d8ec1d28ab5b48d191ba724988') in 0.010013 seconds 
+  Import took 0.013139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row R.asset
+  artifactKey: Guid(d49a4f76667db294c807068191f7472d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row R.asset using Guid(d49a4f76667db294c807068191f7472d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34797add254b1494c9804b6c5ef0b98a') in 0.005683 seconds 
+  Import took 0.008685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/調色盤/調色盤.prefab
+  artifactKey: Guid(047eb391d6ddbcd44a0255c2ed667ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/調色盤.prefab using Guid(047eb391d6ddbcd44a0255c2ed667ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0017ba25572cda560c31b1315e23a2bd') in 0.017074 seconds 
+  Import took 0.020332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C L.asset
+  artifactKey: Guid(22d86f30627fce14b8a797421fa6c8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C L.asset using Guid(22d86f30627fce14b8a797421fa6c8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec20e575815a5d8286ae87d1fc2ca40') in 0.005184 seconds 
+  Import took 0.008928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken BR.asset
+  artifactKey: Guid(99c484adb36880d438e0a44e57d2a660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken BR.asset using Guid(99c484adb36880d438e0a44e57d2a660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eba7f0f3aac91a3c4949c03b57ca4e8') in 0.004903 seconds 
+  Import took 0.008770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Col B.asset
+  artifactKey: Guid(e80d4ac21e6322c4b8850f204222027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Col B.asset using Guid(e80d4ac21e6322c4b8850f204222027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37837943161c1a0a64b059fc4e4be594') in 0.004629 seconds 
+  Import took 0.007925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/調色盤/雜物.prefab
+  artifactKey: Guid(f2c7bfd6f3348854494ba4b2502526d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/雜物.prefab using Guid(f2c7bfd6f3348854494ba4b2502526d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16f39293c69df9c6acf8b114b17f5c7') in 0.007910 seconds 
+  Import took 0.011148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row L.asset
+  artifactKey: Guid(aebaaf83662822946959a4c7420677a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row L.asset using Guid(aebaaf83662822946959a4c7420677a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5aa9f4b5c848be84c7eba09e8fb03ff') in 0.004410 seconds 
+  Import took 0.007182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 4.asset
+  artifactKey: Guid(acdd273b594f6534aa4db95932a23899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 4.asset using Guid(acdd273b594f6534aa4db95932a23899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51470de821a3ad2327decd359e861552') in 0.004618 seconds 
+  Import took 0.007792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken T.asset
+  artifactKey: Guid(cdd3e1d7c47504b4998b081be9c7d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken T.asset using Guid(cdd3e1d7c47504b4998b081be9c7d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc949d111eb61b5564ba7bccafd5ac7d') in 0.004557 seconds 
+  Import took 0.008182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C R.asset
+  artifactKey: Guid(fcd85dbfea9a8504ebf7e3f525b3015e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C R.asset using Guid(fcd85dbfea9a8504ebf7e3f525b3015e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6428c65eb3ef446e9a6396f8ca8a9276') in 0.005139 seconds 
+  Import took 0.008520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C BR 1.asset
+  artifactKey: Guid(b0f3670874445404bb0543453f9b5a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C BR 1.asset using Guid(b0f3670874445404bb0543453f9b5a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2f4988b7557b24cbc22056b6796711') in 0.004747 seconds 
+  Import took 0.007934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C B.asset
+  artifactKey: Guid(811576934bd233e4fbb02e22d521294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C B.asset using Guid(811576934bd233e4fbb02e22d521294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d94d9add0ab04fd0f8605948a5d2e2') in 0.004063 seconds 
+  Import took 0.006867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken S.asset
+  artifactKey: Guid(8f66e2f0cc2b49a469d20ba9613da849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken S.asset using Guid(8f66e2f0cc2b49a469d20ba9613da849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f14247ca7cf2a177494b15256b8863f') in 0.004800 seconds 
+  Import took 0.008666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C TL.asset
+  artifactKey: Guid(57462cff67d72ba48a80696f58108a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C TL.asset using Guid(57462cff67d72ba48a80696f58108a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84295e5babe1a2627458047e01584552') in 0.003861 seconds 
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/調色盤/TX Village Props_104.asset
+  artifactKey: Guid(3e70aca8ecb3fbf4ab840f1c5656eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_104.asset using Guid(3e70aca8ecb3fbf4ab840f1c5656eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a909f8540b94e38f1edc2d5dd3c7add') in 0.004328 seconds 
+  Import took 0.007790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken TL.asset
+  artifactKey: Guid(ef5eea2c5939c424daaf8f6ed17ae1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken TL.asset using Guid(ef5eea2c5939c424daaf8f6ed17ae1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23c723696143477c42a12dba88e3882') in 0.004305 seconds 
+  Import took 0.007668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken BL.asset
+  artifactKey: Guid(bae8cb640e21d36488bb8115fc9be205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken BL.asset using Guid(bae8cb640e21d36488bb8115fc9be205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f851218027dfafee2f0163dd24c2f6') in 0.003872 seconds 
+  Import took 0.007725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row M.asset
+  artifactKey: Guid(1887996cdecf4b44fbb25135f63d9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row M.asset using Guid(1887996cdecf4b44fbb25135f63d9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3185e6852a63c75e558dfdec178c6a12') in 0.004831 seconds 
+  Import took 0.008053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken C TR.asset
+  artifactKey: Guid(30c86d27c4cf67f4aa3c05df0b7350ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken C TR.asset using Guid(30c86d27c4cf67f4aa3c05df0b7350ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379d3022ef0cd7a2d4e87d276f91b894') in 0.003926 seconds 
+  Import took 0.007267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.177084 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda6c352cf6a46812c0d7ad5483fa647') in 0.263102 seconds 
+  Import took 0.266962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.841867 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c6efde36853da5daba4f5a2f80d16e') in 0.217419 seconds 
+  Import took 0.221019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 670.924755 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b512abf697d3de3e7bddef65f61141') in 0.219042 seconds 
+  Import took 0.223194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.521927 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e706f93f49fcf2c63c9badfa3ee76a') in 0.215749 seconds 
+  Import took 0.219380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.457825 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb15c69cae4fc4b8c2b107bc8ed6784a') in 0.223711 seconds 
+  Import took 0.227766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.773435 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e4e32a8dd621bff85683c8cbd90c3f') in 0.224862 seconds 
+  Import took 0.228879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.105111 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711098a3302d4b5f37f2b9449ea408e0') in 0.222304 seconds 
+  Import took 0.226088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.543391 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35091e9cc54601d9b4dda34e5b980483') in 0.220457 seconds 
+  Import took 0.224015 seconds .
+
